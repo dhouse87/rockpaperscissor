@@ -1,61 +1,68 @@
-🪨📄✂️ Rock Paper Scissors Game
-Welcome to Rock Paper Scissors — a fun and interactive Python game built with Pygame, featuring:
-- Animated hands
-- Sound effects for every action (Shoot, Win, Lose, Draw)
-- Custom graphics and buttons
-- Endless rounds for continuous play!
+# 🪨📄✂️ Rock Paper Scissors Game
 
-🎮 How to Play
-- Choose Rock, Paper, or Scissors by clicking a button.
-- Watch the animated fists move and listen for sound effects!
-- Win, lose, or draw based on classic Rock-Paper-Scissors rules.
-- Score is tracked at the bottom of the screen.
+Welcome to **Rock Paper Scissors** — a fun and interactive Python game built with **Pygame**, featuring:
+- 🎨 Animated hand graphics
+- 🔊 Sound effects for every action (Shoot, Win, Lose, Draw)
+- 🖱️ Interactive clickable buttons
+- ♾️ Endless rounds for continuous play!
 
-📂 Project Structure
-bash
-Copy
-Edit
+## 🎮 How to Play
+
+- Click on **Rock**, **Paper**, or **Scissors** to make your move.
+- Watch the animated fists bounce during the classic "Rock, Paper, Scissors, Shoot!" chant.
+- Sound effects play during moves and round outcomes.
+- Score is automatically tracked at the bottom of the screen.
+
+## 📂 Project Structure
+
+```
 RockPaperScissors/
-├── Graphics/           # Contains all hand graphics
-├── Sounds/             # Contains all sound effects
-├── RockPaperScissors.py # Main game Python file
+├── Graphics/              # Contains all hand graphics (PNG files)
+├── Sounds/                # Contains all sound effects (MP3 files)
+└── RockPaperScissors.py    # Main Python game file
+```
 
-✅ All assets are loaded using relative paths, so cloning or downloading the full repository will keep everything working.
+✅ All assets use **relative paths**, so cloning or downloading the repository will keep everything working properly.
 
-🛠 Requirements
-Python 3.x
-Pygame library
+## 🛠 Requirements
 
-Install Pygame via pip if you don't have it:
+- Python 3.x
+- Pygame library
 
-bash
-Copy
-Edit
+Install Pygame if you don't have it:
+
+```
 pip install pygame
-🚀 How to Run
-Clone this repository:
+```
 
-bash
-Copy
-Edit
-git clone https://github.com/YOUR_USERNAME/RockPaperScissors.git
-Navigate into the project folder:
+## 🚀 How to Run
 
-bash
-Copy
-Edit
-cd RockPaperScissors
-Run the Python file:
+1. Clone this repository:
 
-bash
-Copy
-Edit
+```
+git clone https://github.com/dhouse87/rockpaperscissor.git
+```
+
+2. Navigate into the project folder:
+
+```
+cd rockpaperscissor
+```
+
+3. Run the Python file:
+
+```
 python RockPaperScissors.py
-Enjoy the game! 🎉
+```
 
-📢 Credits
-Hand graphics and sound effects are sourced for educational/demonstration purposes.
-Emojis for graphics
-Street Fighter II for sound effects
+🎉 Enjoy the game!
 
-Built by David Hovsepian.
+## 📢 Credits
+
+- **Hand graphics**: Custom-created for educational and demonstration purposes.
+- **Sound effects**: Inspired by classic arcade games like *Street Fighter II*.
+- **Development**: Built by **David Hovsepian**.
+
+## 🎯 Notes
+- Designed for Windows but should work on Mac/Linux with Python and Pygame installed.
+- Game window is sized to be small and wide (600x400) for an optimal experience.
